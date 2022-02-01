@@ -1,14 +1,15 @@
 import { Component } from './component.js';
 
-export class herosearch extends Component {
+export class newheroeform extends Component {
     template;
-    constructor(title = 'Hero Search') {
+    constructor(title = 'Hero Name') {
         super();
         this.template = `
             <section>
                 <h2>${title}</h2>
                     <form >
                             <input type="text" id="addheroe" placeholder="Add heroe" />
+                            <button type="submit">Add</button>
                     </form>
             </section>`;
     }

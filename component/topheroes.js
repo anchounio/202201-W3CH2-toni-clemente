@@ -5,7 +5,7 @@ export class topheroes extends Component {
     constructor(title = 'Top Heroes') {
         super();
         this.template = `
-            <header>
+            <section>
                 <h2>${title}</h2>
                 <nav>
                     <ul>
@@ -15,6 +15,6 @@ export class topheroes extends Component {
                         <li><a>Magneta</a></li>
                     </ul>
                 </nav>
-            </header>`;
+            </section>`;
     }
 }

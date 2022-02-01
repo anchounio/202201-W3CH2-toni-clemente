@@ -9,8 +9,8 @@ export class Header extends Component {
                 <h1>${title}</h1>
                 <nav>
                     <ul>
-                        <li><a>Dashboard</a></li>
-                        <li><a>Heroes</a></li>
+                        <li><a href="home.html">Dashboard</a></li>
+                        <li><a href="heroes.html">Heroes</a></li>
                     </ul>
                 </nav>
             </header>`;

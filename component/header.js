@@ -1,5 +1,4 @@
 import { Component } from './component.js';
-
 export class Header extends Component {
     template;
     constructor(title = 'Tour of Heroes') {
@@ -9,10 +8,11 @@ export class Header extends Component {
                 <h1>${title}</h1>
                 <nav>
                     <ul>
-                        <li><a href="home.html">Dashboard</a></li>
+                        <li><a href="index.html">Dashboard</a></li>
                         <li><a href="heroes.html">Heroes</a></li>
                     </ul>
                 </nav>
-            </header>`;
+            </header>
+            `;
     }
 }

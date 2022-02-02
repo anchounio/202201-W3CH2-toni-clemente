@@ -1,6 +1,6 @@
 import { Component } from './component.js';
 
-export class herosearch extends Component {
+export class Herosearch extends Component {
     template;
     constructor(title = 'Hero Search') {
         super();
@@ -8,7 +8,7 @@ export class herosearch extends Component {
             <section>
                 <h2>${title}</h2>
                     <form >
-                            <input type="text" id="addheroe" placeholder="Add heroe" />
+                            <input type="text" >
                     </form>
             </section>`;
     }

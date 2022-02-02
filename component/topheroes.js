@@ -1,6 +1,6 @@
 import { Component } from './component.js';
 
-export class topheroes extends Component {
+export class Topheroes extends Component {
     template;
     constructor(title = 'Top Heroes') {
         super();
